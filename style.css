@@ -1,0 +1,88 @@
+.header{
+    padding: 50px;
+    text-align: right;
+}
+.header a {
+    margin-right: 10px;
+
+}
+.header i {
+    margin-right: 15px;
+}
+
+form {
+    display: flex;    
+    justify-content: center; 
+}
+
+
+.letter1{
+    color:rgba(0, 157, 255, 0.594);
+}
+.letter2{
+    color:red;
+}
+.letter3{
+    color:orange;
+}
+.letter4{
+    color:rgba(0, 157, 255, 0.594);
+}
+.letter5{
+    color:green;
+}
+.letter6{
+    color:red;
+}
+.google{
+    letter-spacing: -16px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+h1{
+    text-align: center;
+    font-size: 95px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;   
+}
+
+
+input::placeholder {
+    font-size: 20px;
+}
+
+input {
+    width: 600px;    
+    height: 40px;    
+    font-size: 16px;
+    border-radius: 20px;
+  border: 2px solid #ccc;
+    
+}
+
+.dialog {
+    display: none;
+    position: fixed;
+    left: 90%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
+}
+
+:target {
+    display:block;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+    
